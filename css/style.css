@@ -173,6 +173,26 @@ header .ham-burger.active span:nth-child(2){
     background: #000000;
 } */
 
+@media (max-width: 800px) {
+	.home{
+		height: 100vh;
+		background-image: url('../images/pexels-veronica-5495383\ \(1\).jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-display: flex;
+		display: flex;
+		position: relative;
+	
+	
+	
+	
+		display: block;
+		cursor: pointer;
+		overflow: hidden;
+	}
+
+ }
 
 
 
@@ -588,6 +608,11 @@ header .ham-burger.active span:nth-child(2){
 @media screen and (max-width: 1100px) {
 
 	
+	/* .partners .content .sectionpic  {
+		max-width: 0.1px;
+		
+	} */
+
 	.partners{
 		padding:80px 0px 50px;
 		background-color: #222222;
